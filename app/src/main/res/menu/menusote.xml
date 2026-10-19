@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sumota"
+        android:title="suma"
+        android:icon="@drawable/mas"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/restota"
+        android:title="resta"
+        android:icon="@drawable/resta"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/multiplicacionsota"
+        android:title="multiplicacion"
+        android:icon="@drawable/multiplicacion"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/divisionsota"
+        android:title="division"
+        android:icon="@drawable/division"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sumita"
+        android:title="suma"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/restita"
+        android:title="resta"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/multiplicacionsita"
+        android:title="multiplicacion"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/divisionsita"
+        android:title="division"
+        app:showAsAction="ifRoom" />
+
+</menu>
